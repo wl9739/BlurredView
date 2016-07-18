@@ -33,7 +33,7 @@ compile 'com.qiushui:blurview:0.8.0'
   }
 ```
 
-If you want to know more about this library, see [my blog][2]
+If you want to know more about this library, see [my blog][2].
 
 License
 -------

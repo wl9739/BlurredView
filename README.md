@@ -1,12 +1,12 @@
 # BlurredView
 
-![demo][1]
-
-
 Dynamic blur of Image Views for Android. 
 Includes library and small example project.
 
+![demo][1]
+
 ## Gradle
+
 ```Groovy
 compile 'com.qiushui:blurview:0.8.0'
 ```
@@ -21,9 +21,8 @@ compile 'com.qiushui:blurview:0.8.0'
       android:layout_height="match_parent"/>
 ```
 
-You can use `mBlurredView.setBlurredLevel(int alpha)`to determine the 
-level of blur, also you can use `mBlurredView.setBlurredTop(int topDistance)`
-to make blurred image move when `app:move=\"true"` is special.
+* You can use `mBlurredView.setBlurredLevel(int alpha)`to determine the level of blur.
+* You can use `mBlurredView.setBlurredTop(int topDistance)`to make blurred image move when `app:move="true"` is special.
 
 ## Enable RenderScript support mode:
 

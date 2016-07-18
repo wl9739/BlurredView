@@ -26,4 +26,4 @@ Includes library and small example project.
 ```
 
 
-[1]: http://7xook5.com1.z0.glb.clouddn.com/demo.gif
+[1]: http://static.zybuluo.com/wl9739/6y5omajlr151htrnfu7qz7gc/demo.gif

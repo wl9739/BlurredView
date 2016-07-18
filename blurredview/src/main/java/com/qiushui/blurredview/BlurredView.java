@@ -115,7 +115,6 @@ public class BlurredView extends RelativeLayout {
 
     /**
      * 设置模糊程度
-     * @param level
      */
     public void setBlurredLevel(int level) {
         if (level < 0 || level > 100) {

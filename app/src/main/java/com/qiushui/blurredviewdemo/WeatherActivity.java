@@ -1,13 +1,10 @@
 package com.qiushui.blurredviewdemo;
 
-import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.WindowManager;
 
 import com.qiushui.blurredview.BlurredView;
@@ -19,12 +16,6 @@ import com.qiushui.blurredview.BlurredView;
  */
 
 public class WeatherActivity extends AppCompatActivity {
-
-    private static final String TAG = "TestScrollView";
-    /**
-     * toolbar
-     */
-    private Toolbar mToolbar;
 
     /**
      * blurredview
@@ -46,14 +37,8 @@ public class WeatherActivity extends AppCompatActivity {
         setContentView(R.layout.blurred_weather_activity);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
-        mToolbar = (Toolbar) findViewById(R.id.yahooweather_toolbar);
         mBlurredView = (BlurredView) findViewById(R.id.yahooweather_blurredview);
         mRecyclerView = (RecyclerView) findViewById(R.id.yahooweather_recyclerview);
-
-        setSupportActionBar(mToolbar);
-
-        mToolbar.setTitle("重庆");
-        mToolbar.setTitleTextColor(Color.WHITE);
 
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
         mRecyclerView.setAdapter(new RecyclerViewAdapter(this));
@@ -74,9 +59,6 @@ public class WeatherActivity extends AppCompatActivity {
                     mBlurredView.setBlurredTop(mScrollerY / 10);
                     mAlpha = Math.abs(mScrollerY) / 10;
                 }
-
-
-                Log.d(TAG, "onScrolled: mAlpha = " + mAlpha);
                 mBlurredView.setBlurredLevel(mAlpha);
             }
         });

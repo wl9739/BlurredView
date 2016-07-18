@@ -1,6 +1,8 @@
 # BlurredView
 
 ![demo][1]
+
+
 Dynamic blur of Image Views for Android. 
 Includes library and small example project.
 

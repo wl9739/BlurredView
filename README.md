@@ -33,7 +33,7 @@ compile 'com.qiushui:blurview:0.8.0'
   }
 ```
 
-If you want to know more about this library. see [my blog][http://wl9739.github.io/2016/07/14/%E6%95%99%E4%BD%A0%E4%B8%80%E5%88%86%E9%92%9F%E5%AE%9E%E7%8E%B0%E6%A8%A1%E7%B3%8A%E6%95%88%E6%9E%9C/]
+If you want to know more about this library, see [my blog][2]
 
 License
 -------
@@ -54,3 +54,4 @@ License
 
 
 [1]: https://github.com/wl9739/BlurredView/blob/master/Gif/demo.gif
+[2]: http://wl9739.github.io/2016/07/14/%E6%95%99%E4%BD%A0%E4%B8%80%E5%88%86%E9%92%9F%E5%AE%9E%E7%8E%B0%E6%A8%A1%E7%B3%8A%E6%95%88%E6%9E%9C/

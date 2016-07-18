@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TestBlur</string>
+    <string name="blur_me">Blur me please</string>
+    <string name="description_text">Some loooooooong description</string>
+</resources>

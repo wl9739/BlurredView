@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_marginTop="36dp"
+              android:background="#44000000"
+              android:paddingLeft="@dimen/activity_vertical_margin"
+              android:layout_width="match_parent"
+              android:layout_height="120dp">
+
+    <TextView
+        android:text="WeatherInfo"
+        android:textSize="24sp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="Show more info"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

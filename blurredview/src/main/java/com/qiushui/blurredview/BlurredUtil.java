@@ -11,6 +11,12 @@ import android.graphics.drawable.Drawable;
 
 public class BlurredUtil {
 
+    /**
+     * 将Drawable对象转化为Bitmap对象
+     *
+     * @param drawable  Drawable对象
+     * @return          对应的Bitmap对象
+     */
      static Bitmap drawableToBitmap(Drawable drawable) {
         Bitmap bitmap;
 

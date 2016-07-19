@@ -1,6 +1,6 @@
 # BlurredView
 
-Dynamic blur of Image Views for Android. This library is based on **RenderScript**. You can find more detail about RenderScript here:[RenderScript][1]
+Dynamic blur of Image Views for Android. This library is based on **RenderScript**. You can find more detail about RenderScript here: [RenderScript][1]
 
 Includes library and small example project.
 
@@ -9,7 +9,7 @@ Includes library and small example project.
 ## Gradle
 
 ```Groovy
-compile 'com.qiushui:blurredview:0.8.0'
+compile 'com.qiushui:blurredview:0.8.1'
 ```
 
 ## Enable RenderScript support mode:
@@ -31,9 +31,10 @@ defaultConfig {
       android:layout_height="match_parent"/>
 ```
 
-* You must use `app:src="@drawable/XXX"` in layout to set the image to be blurred.
-* You can use `mBlurredView.setBlurredLevel(int alpha)`to determine the level of blur.
-* You can use `mBlurredView.setBlurredTop(int topDistance)`to make blurred image move when `app:move="true"` is special.
+* You can use `app:src="@drawable/XXX"` in layout to set the image to be blurred.Or you may use `mBlurredView.setBlurredImg();` in your java code to specify the image to be blurred. 
+* You can use `mBlurredView.setBlurredLevel(int alpha)`to determine the level of blur. The value of alpha is between 0 to 100.
+* You can use `mBlurredView.setBlurredTop(int topDistance)`to make blurred image move when `app:move="true"` is special. The value of topDistance is between 0 to 100.
+* At last, you must use `mBlurredView.showBlurredView();` to make blurred view visible. Or, you can use `disableBlurredView()` method to make blurred view invisible.
 
 If you want to know more about this library, see [my blog][3].
 

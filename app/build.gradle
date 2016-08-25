@@ -13,6 +13,10 @@ android {
 
         renderscriptTargetApi 19
         renderscriptSupportModeEnabled true
+
+        ndk {
+            abiFilters "armeabi","armeabi-v7a", "x86", "mips"
+        }
     }
     buildTypes {
         release {

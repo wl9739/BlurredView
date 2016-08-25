@@ -53,9 +53,6 @@ public class BlurredViewBasicActivity extends AppCompatActivity {
 
         // 可以在代码中使用setBlurredImg()方法指定需要模糊的图片
         mBlurredView.setBlurredImg(getResources().getDrawable(R.drawable.dayu));
-
-        // 设置完成后需要调用showBlurredView方法显示要模糊的图片
-        mBlurredView.showBlurredView();
     }
 
     /**
